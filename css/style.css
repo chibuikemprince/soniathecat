@@ -60,23 +60,26 @@
 
 ***/
 
-
-
+@font-face {
+  font-family: "Cattie";
+  src: url("../fonts/cattie/Cattie-Regular.ttf") format("truetype"); /* Adjust the path as necessary */
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: 'Cattie';
-    src: url('../fonts/cattie/Cattie-Regular.ttf') format('truetype'); /* Adjust the path as necessary */
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Leckerli_One";
+  src: url("../fonts/Leckerli_One/LeckerliOne-Regular.ttf") format("truetype"); /* Adjust the path as necessary */
+  font-weight: normal;
+  font-style: normal;
 }
 
- @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/helvetica/Sabeth-Regular.otf') format('truetype'); /* Adjust the path as necessary */
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/helvetica/Sabeth-Regular.otf") format("truetype"); /* Adjust the path as necessary */
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 * {
   margin: 0;
@@ -111,8 +114,7 @@ body {
 }
 h1,
 h2 {
-   
-    font-family: 'Cattie', sans-serif; 
+  font-family: "Leckerli_One", sans-serif;
   color: #fff;
   line-height: 1.4;
   font-weight: 700;
@@ -120,8 +122,8 @@ h2 {
 h3,
 h4,
 h5,
-h6 { 
-   font-family: 'Cattie', sans-serif; 
+h6 {
+  font-family: "Leckerli_One", sans-serif;
   color: #fff;
   line-height: 1.4;
   font-weight: 500;
@@ -851,7 +853,7 @@ ol {
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
-  font-family: Cattie, cursive;
+  font-family: Leckerli_One, cursive;
   color: #0d142f;
   padding: 0 1.7rem;
   line-height: 50px;
@@ -1907,7 +1909,7 @@ nav {
 }
 .copy-btn.v3 {
   clip-path: none;
-  font-family: Cattie, cursive;
+  font-family: Leckerli_One, cursive;
   padding: 10px 30px 20px 30px;
   height: 60px;
   font-size: 20px;
@@ -2064,7 +2066,7 @@ nav {
 .marquee-block p {
   display: inline-block;
   padding-left: 5px;
-  font-family: Cattie, cursive;
+  font-family: Leckerli_One, cursive;
   letter-spacing: 2px;
   margin-bottom: 0;
 }
@@ -2103,7 +2105,7 @@ nav {
 .who-we-contant h4 {
   margin-bottom: 20px;
   font-size: 40px;
-  font-family: 'Cattie', sans-serif; 
+  font-family: "Leckerli_One", sans-serif;
 }
 
 .our-mission-area {
@@ -2976,7 +2978,7 @@ nav {
 .token-information h6 {
   font-size: 22px;
   text-transform: uppercase;
-  font-family: Cattie, cursive;
+  font-family: Leckerli_One, cursive;
   margin-bottom: 0;
 }
 .token-information p {
@@ -3151,8 +3153,8 @@ nav {
 .service_single_content h6 {
   margin-bottom: 15px;
   font-size: 22px;
-  font-family: Cattie, cursive;
-  font-weight:900;
+  font-family: Leckerli_One, cursive;
+  font-weight: 900;
 }
 
 .side-feature-list-item {
@@ -3542,6 +3544,8 @@ nav {
   font-size: 30px;
   font-weight: 700;
   color: #232323;
+  font-family: Leckerli_One;
+
   line-height: 36px;
 }
 
@@ -3569,7 +3573,7 @@ nav {
   letter-spacing: 2px;
   line-height: 24px;
   margin: 0 0 15px 0;
-  font-family: Cattie, cursive;
+  font-family: Leckerli_One, cursive;
   color: #fff;
 }
 
@@ -5549,7 +5553,7 @@ textarea:required {
 }
 .pre-price {
   margin: 50px 0 30px;
-  font-family: Cattie, cursive;
+  font-family: Leckerli_One, cursive;
 }
 .ico-progress li.strength {
   float: right;
