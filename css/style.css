@@ -59,6 +59,25 @@
 ====================================================================
 
 ***/
+
+
+
+
+@font-face {
+    font-family: 'Cattie';
+    src: url('../fonts/cattie/Cattie-Regular.ttf') format('truetype'); /* Adjust the path as necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica/Sabeth-Regular.otf') format('truetype'); /* Adjust the path as necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -67,7 +86,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Helvetica, sans-serif;
   background: url(../img/svg/shape_1.svg), #433001;
   overflow-x: hidden;
 }
@@ -92,7 +111,8 @@ body {
 }
 h1,
 h2 {
-  font-family: "Alfa Slab One", cursive;
+   
+    font-family: 'Cattie', sans-serif; 
   color: #fff;
   line-height: 1.4;
   font-weight: 700;
@@ -100,8 +120,8 @@ h2 {
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Poppins", sans-serif;
+h6 { 
+   font-family: 'Cattie', sans-serif; 
   color: #fff;
   line-height: 1.4;
   font-weight: 500;
@@ -187,7 +207,7 @@ ol {
   z-index: 99999;
   top: 0;
   left: 0;
-  background: url(../img/svg/shape_1.svg), #d10000;
+  background: url(../img/svg/shape_1.svg), rgb(221 20 56);
 }
 
 .preload-content {
@@ -734,7 +754,7 @@ ol {
   font-weight: bold;
   display: inline-block;
   font-size: 20px;
-  background-color: #770101;
+  background-color: rgb(221 20 56);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -831,7 +851,7 @@ ol {
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
   color: #0d142f;
   padding: 0 1.7rem;
   line-height: 50px;
@@ -909,13 +929,13 @@ ol {
   color: #fff;
 }
 .navbar-nav .nav-item .nav-link:hover {
-  color: #d10000;
+  color: rgb(221 20 56);
 }
 .navbar-expand-md .navbar-nav .dropdown-menu {
   border-top: 3px solid #fed136;
 }
 .dropdown-item:hover {
-  background-color: #d10000;
+  background-color: rgb(221 20 56);
   color: #fff;
 }
 nav {
@@ -971,7 +991,7 @@ nav {
 .navbar-dark .navbar-toggler,
 .navbar-white .navbar-toggler,
 .navbar-cyan .navbar-toggler {
-  background: #d10000;
+  background: rgb(221 20 56);
   border-color: #333;
 }
 .navbar-white .navbar-toggler-icon {
@@ -1076,7 +1096,7 @@ nav {
 }
 .hero-section.gradient {
   overflow: hidden;
-  background-color: rgb(111 0 0);
+  background-color: rgb(221 20 56);
 }
 .hero-section.moving {
   overflow: hidden;
@@ -1598,7 +1618,7 @@ nav {
 .welcome-content h1 {
   font-size: 60px;
   font-weight: 900;
-  color: #d10000;
+  color: rgb(221 20 56);
   margin-bottom: 20px;
   letter-spacing: 3px;
   max-inline-size: 15ch;
@@ -1606,7 +1626,7 @@ nav {
 }
 .welcome-content p {
   font-size: 18px;
-  color: #d10000;
+  color: rgb(221 20 56);
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -1804,7 +1824,7 @@ nav {
   color: #fff;
   font-size: 20px;
   margin-right: 8px;
-  background: #d10000;
+  background: rgb(221 20 56);
   width: 40px;
   height: 40px;
   font-weight: 500;
@@ -1864,7 +1884,7 @@ nav {
     8.556% 0.397%,
     0.535% 0.349%
   );
-  background: #d10000;
+  background: rgb(221 20 56);
   color: #fff;
   white-space: nowrap;
   position: relative;
@@ -1883,11 +1903,11 @@ nav {
   overflow: visible;
   padding: 5px 30px 20px 30px;
   height: 50px;
-  border-bottom: 5px solid #d10000;
+  border-bottom: 5px solid rgb(221 20 56);
 }
 .copy-btn.v3 {
   clip-path: none;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
   padding: 10px 30px 20px 30px;
   height: 60px;
   font-size: 20px;
@@ -1936,7 +1956,7 @@ nav {
   cursor: pointer;
 }
 .b-text {
-  color: #d10000 !important;
+  color: rgb(221 20 56) !important;
 }
 .w-text {
   color: #fff !important;
@@ -2028,7 +2048,7 @@ nav {
 
 .moving-bg {
   position: relative;
-  background: rgb(111 0 0);
+  background: rgb(221 20 56);
   width: 160em;
   padding: 14px 0;
   border-top: 4px solid #000;
@@ -2044,7 +2064,7 @@ nav {
 .marquee-block p {
   display: inline-block;
   padding-left: 5px;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
   letter-spacing: 2px;
   margin-bottom: 0;
 }
@@ -2077,13 +2097,13 @@ nav {
   border: 30px solid transparent;
   background: #fffcc8;
   border-radius: 30px;
-  border-bottom: 10px solid #d10000;
-  border-top: 10px solid #d10000;
+  border-bottom: 10px solid rgb(221 20 56);
+  border-top: 10px solid rgb(221 20 56);
 }
 .who-we-contant h4 {
   margin-bottom: 20px;
   font-size: 40px;
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Cattie', sans-serif; 
 }
 
 .our-mission-area {
@@ -2280,7 +2300,7 @@ nav {
   background-image: linear-gradient(180deg, #17ead9 0%, #6078ea 100%);
 }
 .gradient-t.green {
-  background-color: #770101;
+  background-color: rgb(221 20 56);
 }
 
 .contribution-c-wapper {
@@ -2956,7 +2976,7 @@ nav {
 .token-information h6 {
   font-size: 22px;
   text-transform: uppercase;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
   margin-bottom: 0;
 }
 .token-information p {
@@ -3089,7 +3109,7 @@ nav {
 .how .service_icon {
   padding: 15px;
   position: relative;
-  background: rgb(111 0 0);
+  background: rgb(221 20 56);
   max-width: 100%;
   height: 100px;
   border-radius: 5%;
@@ -3131,7 +3151,8 @@ nav {
 .service_single_content h6 {
   margin-bottom: 15px;
   font-size: 22px;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
+  font-weight:900;
 }
 
 .side-feature-list-item {
@@ -3548,7 +3569,7 @@ nav {
   letter-spacing: 2px;
   line-height: 24px;
   margin: 0 0 15px 0;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
   color: #fff;
 }
 
@@ -4054,7 +4075,7 @@ nav {
 }
 .subscribe-section i {
   font-size: 20px;
-  color: #d10000;
+  color: rgb(221 20 56);
   position: absolute;
   z-index: 1;
   top: 13px;
@@ -4650,7 +4671,7 @@ textarea:required {
 .footer-content-area {
   padding: 80px 0;
   margin-top: 100px;
-  background: url(../img/svg/shape_1.svg) #d10000;
+  background: url(../img/svg/shape_1.svg) rgb(221 20 56);
   border-top: 3px solid;
 }
 .footer-content-area.demo {
@@ -5420,7 +5441,7 @@ textarea:required {
   height: 75px;
   line-height: 75px;
   margin: 0 auto;
-  background: #d10000;
+  background: rgb(221 20 56);
   background-size: contain;
   color: #fff;
 }
@@ -5499,7 +5520,7 @@ textarea:required {
   float: left;
   padding-left: 30px;
   font-weight: 600;
-  color: #d10000;
+  color: rgb(221 20 56);
 }
 .pre-sale-bg {
   padding: 40px 30px;
@@ -5528,12 +5549,12 @@ textarea:required {
 }
 .pre-price {
   margin: 50px 0 30px;
-  font-family: "Alfa Slab One", cursive;
+  font-family: Cattie, cursive;
 }
 .ico-progress li.strength {
   float: right;
   font-weight: 600;
-  color: #d10000;
+  color: rgb(221 20 56);
 }
 .ico-progress .current-progress {
   width: 100%;
@@ -5549,7 +5570,7 @@ textarea:required {
   height: 26px;
   bottom: -5px;
   left: 12%;
-  background: #d10000;
+  background: rgb(221 20 56);
 }
 
 .current-progress .progress-bar {
@@ -5862,7 +5883,7 @@ body.light-version {
 }
 
 .light-version p {
-  color: #d10000;
+  color: rgb(221 20 56);
 }
 
 .light-version h2,
@@ -5880,7 +5901,7 @@ body.light-version {
 .light-version input:valid ~ label,
 .light-version textarea:valid ~ label,
 .light-version .copywrite_text > p > a {
-  color: rgb(111 0 0);
+  color: rgb(221 20 56);
 }
 
 .light-version .dream-faq-area dt {
@@ -6161,7 +6182,7 @@ body.light-version {
   width: 100%;
   font-weight: 700;
   color: #fff;
-  background: #d10000;
+  background: rgb(221 20 56);
   text-transform: uppercase;
   border: 1px solid #673ab7;
 }

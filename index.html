@@ -160,7 +160,7 @@
                 >
                   Beloved pet of the founder of Supra, Joshua Tobkin. $SONIA has
                   been adopted by the community and now lives on the Supra
-                  Blockchain
+                  Blockchain.
                 </p>
                 <!--
 
@@ -190,7 +190,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="hedo-wrapper v2 floating-anim mt-50">
+              <div class="hedo-wrapper v2 floating-anim mt-10">
                 <img src="cat.png" alt="" />
               </div>
             </div>
@@ -357,7 +357,8 @@
               <div class="service_icon">
                 <img
                   draggable="false"
-                  src="img/icons/1.png"
+                  src="img/core-img/supra.png"
+                  style="border-radius: 12px"
                   class="white-icon"
                   alt=""
                 />
@@ -376,7 +377,8 @@
               <div class="service_icon">
                 <img
                   draggable="false"
-                  src="img/icons/2.png"
+                  src="img/core-img/starkey.png"
+                  style="border-radius: 12px"
                   class="white-icon"
                   alt=""
                 />
@@ -398,7 +400,8 @@
               <div class="service_icon">
                 <img
                   draggable="false"
-                  src="img/icons/3.png"
+                  src="img/core-img/logo-launch.png"
+                  style="border-radius: 12px"
                   class="white-icon"
                   alt=""
                 />
@@ -418,7 +421,8 @@
               <img
                 draggable="false"
                 class="comp-img floating-anim"
-                src="cat.png"
+                style="max-width: 80%"
+                src="./img/core-img/cat1.png"
                 alt=""
               />
             </div>
@@ -692,7 +696,7 @@
               <ul class="token-information">
                 <li>
                   <h6>
-                    <span class="gradient-t green mr-1">5%</span> donation
+                    <span class="gradient-t green mr-1">10%</span> donation
                   </h6>
                 </li>
                 <li>
@@ -714,8 +718,8 @@
                 </li>
                 <li>
                   <h6>
-                    <span class="gradient-t green mr-1">13%</span> CEX and
-                    Market Making
+                    <span class="gradient-t green mr-1">8%</span> CEX and Market
+                    Making
                   </h6>
                 </li>
               </ul>
@@ -762,7 +766,12 @@
             class="col-12 col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-sm-12"
           >
             <div class="welcome-meter">
-              <img draggable="false" class="comp-img" src="cat.png" alt="" />
+              <img
+                draggable="false"
+                class="comp-img"
+                src="img/core-img//cat2.png"
+                alt=""
+              />
               <img
                 draggable="false"
                 class="supportImg floating-anim"
@@ -983,6 +992,10 @@
           <a href="https://t.me/soniasupracto"
             ><i class="fa fa-telegram" aria-hidden="true"></i
           ></a>
+
+          <p style="color: white; padding-top: 10px">
+            &copy; <span id="copyright-year"></span> Sonia. All rights reserved.
+          </p>
         </div>
         <!--
         <div class="container">
@@ -1091,5 +1104,12 @@
     <!-- script js -->
     <script src="js/script.js"></script>
     <script src="js/copy.js"></script>
+
+    <script>
+      // Get the current year
+      const currentYear = new Date().getFullYear();
+      // Set the innerHTML of the copyright year span
+      document.getElementById("copyright-year").innerHTML = currentYear;
+    </script>
   </body>
 </html>
