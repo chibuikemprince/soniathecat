@@ -93,6 +93,10 @@ body {
   background: url(../img/svg/shape_1.svg), #433001;
   overflow-x: hidden;
 }
+
+#scrollUp {
+  display: none;
+}
 .darker-blue {
   background: linear-gradient(
     180deg,
