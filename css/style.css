@@ -95,7 +95,7 @@ body {
 }
 
 #scrollUp {
-  display: none;
+  display: none !important;
 }
 .darker-blue {
   background: linear-gradient(
